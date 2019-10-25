@@ -12,3 +12,5 @@ stable"
 sudo apt-get remove docker \
 docker-engine \
 docker.io
+
+sudo apt-get install docker-ce
