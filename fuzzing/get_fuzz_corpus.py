@@ -78,6 +78,7 @@ def main(ext, magic, directory):
 #-----------------------------------------------------------------------
 def usage():
   print "Usage:", sys.argv[0], "extension magic_header folder"
+  print "\tmagic: hex or ascii"
 
 if __name__ == "__main__":
   if len(sys.argv) != 4:
